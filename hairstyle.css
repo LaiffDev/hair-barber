@@ -1,0 +1,166 @@
+*{
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* logo and navigations */
+header{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   background-color: black;
+   padding: 10px;
+}
+
+#royal{
+   color: royalblue;
+}
+
+.logo h1{
+   color: white;
+}
+
+.nav-menu ul{
+   display: flex;
+   gap: 15px;
+   align-items: center;
+}
+
+.nav-menu ul a{
+   color: white;
+   text-decoration: none;
+}
+
+.tel-number a{
+   color: royalblue;
+   text-decoration: none;
+   border: 2px solid royalblue;
+   padding: 10px;
+   margin-right: 5px;
+   border-radius: 5px;
+   transition:ease all 0.5s;
+}
+
+.tel-number a:hover{
+   background-color: royalblue;
+   color:white;
+}
+
+/* hero image and text */
+.hero-image{
+   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('image/midia.jpg');
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-attachment: fixed;
+   height: 90vh;
+}
+
+.hero-text{
+   position: absolute;
+   top: 25%;
+   color: white;
+   margin: 15px;
+   line-height: 1.2;
+}
+
+.hero-text h1{
+   font-size: 100px;
+   margin-bottom: 10px;
+}
+
+.hero-text p{
+   font-size: 30px;
+   margin-bottom: 30px;
+}
+
+.hero-text a{
+   color: royalblue;
+   text-decoration: none;
+   border: 2px solid royalblue;
+   padding: 10px;
+   margin-right: 5px;
+   border-radius: 5px;
+   transition:ease all 0.5s;
+   font-size: 22px;
+}
+
+.hero-text a:hover{
+   background-color: royalblue;
+   color:white;
+}
+
+/* description */
+.chi-siamo{
+   width:60%;
+   margin: auto;
+   background-color: #f6f6f6;
+   text-align: center;
+   margin-top: 30px;
+   padding: 10px;
+   line-height: 1.4;
+}
+
+.chi-siamo h2{
+   margin-bottom: 10px;
+}
+
+/* services */
+.serve h2{
+   text-align: center;
+   margin-top:100px;
+}
+
+.servizi{
+   margin-top: 40px;
+   text-align: center;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   line-height: 1.4;
+}
+
+#icons{
+   width:100px;
+}
+
+.gallery{
+   margin: auto;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-top: 60px;
+}
+
+.gallery img{
+   width:300px;
+   margin:10px;
+   box-shadow: 1px 5px 5px #bbbbbbfc;
+}
+
+/* visit us */
+.therapy{
+   margin-top: 150px;
+}
+
+.visit-us{
+   display: flex;
+   align-items: center;
+   margin:20px;
+}
+
+.visit-us h2{
+   font-size: 100px;
+   margin-left: 70px;
+   text-align: center;
+   color: #385755;
+}
+#mati{
+   width:300px;
+   border-radius: 5px;
+   box-shadow: 1px 5px 5px #bbbbbbfc;
+}
+
+
