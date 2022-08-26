@@ -4,6 +4,9 @@
    <meta charset="UTF-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Road+Rage&display=swap" rel="stylesheet">
    <title>HairBarber di Lisa Comoretto</title>
    <link rel="stylesheet" href="hairstyle.css">
 </head>
@@ -38,7 +41,7 @@
             <div class="hero-image"></div>
             <div class="hero-text">
                <h1>SALONE <br>PER UOMO <br> A SPILIMBERGO</h1>
-               <p>Prenota adesso il tuo appuntamento</p>
+               <p>prenota adesso il tuo appuntamento</p>
                <a href="#"><strong>prenota</strong></a>
             </div>
          </div>
@@ -90,9 +93,80 @@
             <div class="visit-us">
                <img id="mati" src="image/mati.jpg" alt="">
                <h2>VIENI A TROVARCI</h2>
+               <table>
+                 <tr>
+                  <th>GIORNI</th>
+                  <th>ORARI</th>
+                 </tr>
+                 <tr>
+                  <td>LUNEDI</td>
+                  <td><strong>CHIUSO</strong></td>
+                 </tr>
+                 <tr>
+                  <td>MARTEDI</td>
+                  <td>12:00 - 20:00</td>
+                 </tr>
+                 <tr>
+                  <td>MERCOLEDI</td>
+                  <td>9:00 - 12:00 / 15:00 - 19:00</td>
+                 </tr>
+                 <tr>
+                  <td>GIOVEDI</td>
+                  <td>9:00 - 12:00 / 15:00 - 19:00</td>
+                 </tr>
+                 <tr>
+                  <td>VENERDI</td>
+                  <td>9:00 - 18:00</td>
+                 </tr>
+                 <tr>
+                  <td>SABATO</td>
+                  <td>9:00 - 18:00</td>
+                 </tr>
+               </table>
+            </div>
+         </section>
+
+         <section class="maps">
+            <div class="left">
+               <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11062.984989361608!2d12.8999097!3d46.1159631!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xa0c98937f49f1992!2sHair%20Barber%20Di%20Lisa%20Comoretto!5e0!3m2!1sit!2sit!4v1658939216673!5m2!1sit!2sit" width="800" height="460" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <div class="right">
+               <h2>PRENOTA IL TUO APPUNTAMENTO ADESSO</h2>
+               <form action="">
+                  <label for="name-surname">
+                     <input type="text" placeholder="nome e cognome">
+                  </label>
+                  <br>
+                  <br>
+                  <label for="phone-number">
+                     <input type="text" placeholder="numero di telefono">
+                  </label>
+                  <br>
+                  <br>
+                  <textarea name="" id="" cols="50" rows="10" placeholder="messaggio"></textarea>
+                  <br>
+                  <button id="submit-cta" type="submit">Prenota</button>
+               </form>
             </div>
          </section>
       </main>
+
+      <!-- footer -->
+      <footer>
+         <div class="foot">
+            <div class="social">
+               <a href="#">
+                  <img id="social-icon" src="image/ig-white.png" alt="">
+               </a>
+               <a href="#">
+                  <img id="social-icon" src="image/fb-white.png" alt="">
+               </a>
+            </div>
+            <div class="author">
+               Copyright &copy; 2022 - Designed by Latiff Mohammed
+            </div>
+         </div>
+      </footer>
 
    </div>
 </body>

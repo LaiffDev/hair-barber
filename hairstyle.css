@@ -14,12 +14,19 @@ header{
    padding: 10px;
 }
 
+.logo{
+  font-size: 20px;
+  letter-spacing: 2px;
+}
+
 #royal{
    color: royalblue;
+   font-family: 'Road Rage', cursive;
 }
 
 .logo h1{
    color: white;
+   font-family: 'Road Rage', cursive;
 }
 
 .nav-menu ul{
@@ -55,7 +62,7 @@ header{
    background-repeat: no-repeat;
    background-size: cover;
    background-attachment: fixed;
-   height: 90vh;
+   height: 100vh;
 }
 
 .hero-text{
@@ -84,7 +91,7 @@ header{
    margin-right: 5px;
    border-radius: 5px;
    transition:ease all 0.5s;
-   font-size: 22px;
+   font-size: 20px;
 }
 
 .hero-text a:hover{
@@ -99,7 +106,7 @@ header{
    background-color: #f6f6f6;
    text-align: center;
    margin-top: 30px;
-   padding: 10px;
+   padding: 40px;
    line-height: 1.4;
 }
 
@@ -122,6 +129,10 @@ header{
    line-height: 1.4;
 }
 
+.cards{
+   padding: 20px;
+}
+
 #icons{
    width:100px;
 }
@@ -142,13 +153,14 @@ header{
 
 /* visit us */
 .therapy{
-   margin-top: 150px;
+   margin-top: 120px;
 }
 
 .visit-us{
    display: flex;
    align-items: center;
    margin:20px;
+   flex-direction: column;
 }
 
 .visit-us h2{
@@ -156,11 +168,113 @@ header{
    margin-left: 70px;
    text-align: center;
    color: #385755;
+   margin-bottom: 5px;
 }
 #mati{
    width:300px;
    border-radius: 5px;
    box-shadow: 1px 5px 5px #bbbbbbfc;
+   margin-left: 50px;
 }
+
+table{
+   border: 1px solid #dddddd;
+}
+
+td, th{
+   border: 1px solid #dddddd;
+   text-align: center;
+   padding: 14px;
+   width: 320px;
+ }
+
+.maps{
+   display: flex;
+   align-items: center;
+   margin-top: 50px;
+   justify-content: center;
+   text-align: center;
+}
+
+.maps .left{
+   width:50%;
+   margin-top: 4px;
+}
+
+.maps .right{
+   width:50%;
+   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('image/gareth.jpg');
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   height: 460px;  
+}
+
+.right h2{
+   color: white;
+   padding: 20px
+}
+
+.right form{
+   margin-top: 20px;
+}
+
+.right input, .right textarea{
+   padding: 5px;
+   text-align: center;
+   border-radius: 5px;
+   border: none;
+}
+
+.right textarea{
+   margin-bottom: 8px;
+}
+
+#submit-cta{
+   padding: 6px;
+   width:20%;
+   border: 2px solid royalblue;
+   background-color: transparent;
+   color: royalblue;
+   font-weight: bold;
+   border-radius: 5px;
+   transition:ease all 0.5s;
+}
+
+#submit-cta:hover{
+   background: royalblue;
+   color: white;
+   cursor:pointer;
+}
+
+
+/* footer */
+
+.foot{
+   background-color: black;
+   padding: 20px;
+   /* display: flex; */
+   justify-content: space-between;
+   align-items: center;
+   gap: 50px;
+   text-align: center;
+}
+
+#social-icon{
+   width:50px;
+   margin: 5px;
+}
+
+.social a{
+   text-decoration: none;
+}
+
+.author{
+   color: white;
+   margin: auto;
+   padding: 15px;
+}
+
+
 
 
